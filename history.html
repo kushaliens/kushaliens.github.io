@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Metro</title>
+    <!-- Required meta tags -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet" href = "less/style.less">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "js/main.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <link rel = "stylesheet" href = "css/dark-mode.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/card-fix.css">
+    <link rel="shortcut icon" href="img/minsklogo.ico" type="image/x-icon">
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/dropdowns.js"></script>
+    <script src="js/links.js"></script>
+    <script src="js/side-menu.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#single_1").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_5").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_6").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_7").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_2").fancybox({
+                openEffect	: 'elastic',
+                closeEffect	: 'elastic',
+
+                helpers : {
+                    title : {
+                        type : 'inside'
+                    }
+                }
+            });
+
+            $("#single_3").fancybox({
+                openEffect : 'none',
+                closeEffect	: 'none',
+                helpers : {
+                    title : {
+                        type : 'outside'
+                    }
+                }
+            });
+
+            $("#single_4").fancybox({
+                helpers : {
+                    title : {
+                        type : 'over'
+                    }
+                }
+            });
+        });
+
+    </script>
+
+
+</head>
+<body>
+
+<aside>
+    <div class="menu-wrapper d-none d-md-block">
+        <div class="menu-link" data-modal="menu-modal">
+            <span class="menu-icon"></span>
+        </div>
+        <div class="modal-mask">
+            <div class="menu-modal">
+                <div class="nav-wrapper">
+                    <div class="main-nav">
+                        <div class="utility-links">
+                            <a href=""></a>
+                            <span class="language-downdown">
+                <a class="language-dropdown-toggle" data-target="language-dropdown"></a>
+                <ul class="language-dropdown-list">
+                  <li><a class="language-item" href="#">Deutsch</a></li>
+                  <li><a class="language-item selected" href="#">English</a></li>
+                  <li><a class="language-item" href="#">Español</a></li>
+                  <li><a class="language-item" href="#">Français</a></li>
+                  <li><a class="language-item" href="#">Italiano</a></li>
+                  <li><a class="language-item" href="#">Nederlands</a></li>
+                  <li><a class="language-item" href="#">Português</a></li>
+                </ul>
+              </span>
+                        </div>
+                        <nav>
+                            <div class="well" style="width:600px; padding: 8px 0;">
+                                <div style="overflow-y: auto; overflow-x: hidden; height: 800px;">
+                                    <ul class="nav-list">
+                                        <li><label class="tree-toggler nav-header">Услуги</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="ads.html">Рекламные услуги</a></li>
+                                                <li><a href="logistics.html">Автотранспортные услуги</a></li>
+                                                <li><a href="rent.html">Услуги аренды помещений</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Информация</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="security.html">Безопасность</a></li>
+                                                <li><a href="pays.html">Оплата проезда</a></li>
+                                                <li><a href="rules.html">Правила перевозок</a></li>
+                                                <li><a href="zones.html">Зона досмотра</a></li>
+                                                <li><a href="schedule.html">График работы</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Обращения граждан</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="administrative-contact.html">По административным вопросам</a></li>
+                                                <li><a href="user-contact.html">По личным вопросам</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">О метрополитене</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="director.html">О руководителе</a></li>
+                                                <li><a href="history.html">История развития</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+<article>
+    <div class="menu-wrapper d-sm-none">
+        <div class="menu-link" data-modal="menu-modal">
+            <span class="menu-icon"></span>
+        </div>
+        <div class="modal-mask">
+            <div class="menu-modal">
+                <div class="nav-wrapper">
+                    <div class="main-nav">
+                        <div class="utility-links">
+                            <a href=""></a>
+                            <span class="language-downdown">
+                <a class="language-dropdown-toggle" data-target="language-dropdown"></a>
+                <ul class="language-dropdown-list">
+                  <li><a class="language-item" href="#">Deutsch</a></li>
+                  <li><a class="language-item selected" href="#">English</a></li>
+                  <li><a class="language-item" href="#">Español</a></li>
+                  <li><a class="language-item" href="#">Français</a></li>
+                  <li><a class="language-item" href="#">Italiano</a></li>
+                  <li><a class="language-item" href="#">Nederlands</a></li>
+                  <li><a class="language-item" href="#">Português</a></li>
+                </ul>
+              </span>
+                        </div>
+                        <nav>
+                            <div class="well" style="width:600px; padding: 8px 0;">
+                                <div style="overflow-y: auto; overflow-x: hidden; height: 800px; margin: -100px 20px 20px -50px">
+                                    <ul class="nav-list">
+                                        <li><label class="tree-toggler nav-header">Услуги</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="ads.html">Рекламные услуги</a></li>
+                                                <li><a href="logistics.html">Автотранспортные услуги</a></li>
+                                                <li><a href="rent.html">Услуги аренды помещений</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Информация</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="security.html">Безопасность</a></li>
+                                                <li><a href="pays.html">Оплата проезда</a></li>
+                                                <li><a href="rules.html">Правила перевозок</a></li>
+                                                <li><a href="zones.html">Зона досмотра</a></li>
+                                                <li><a href="schedule.html">График работы</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Обращения граждан</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="administrative-contact.html">По административным вопросам</a></li>
+                                                <li><a href="user-contact.html">По личным вопросам</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">О метрополитене</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="director.html">О руководителе</a></li>
+                                                <li><a href="history.html">История развития</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<div class="wrapper">
+    <div class="wrap">
+        <section class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div
+                                class="text-center"><h2 class="display-4">История развития
+                        </h2></div>
+
+                        <!-- Timeline -->
+                        <div class="about">
+                            <p>
+                                История минского метрополитена начинается в конце 1960-х годов. В то время в СССР метро строили в городах с населением не менее миллиона человек. После окончания Великой Отечественной войны Минск рос быстрее всех других крупных городов СССР (в основном благодаря быстрому развитию промышленности), уже в 1972 году в городе родился миллионный горожанин. К 1970 году ощущались большие трудности в перевозке людей (исчерпали свою пропускную способность ряд основных магистралей). Рассматривались три варианта развития транспортной системы: автобус-экспресс, скоростной трамвай и метрополитен, который и был выбран.
+                                Разработка плана для строительства метрополитена в Минске началась в 1976 году. План строительства восьмистанционной линии был одобрен Советом Министров СССР 4 февраля 1977 года. 16 июня 1977 года была заложена первая свая в основание будущей станции «Парк Челюскинцев». Строительство первой линии метрополитена от станции «Институт культуры» до станции «Волгоградская» (впоследствии — «Московская») длилось с 1977 по 1984 год.
+                                Открытие метро состоялось 29 июня 1984 года, в канун 40-й годовщины освобождения Минска от немецких захватчиков в годы Великой Отечественной войны. </p>
+                        </div>
+                        <div class="mb-4">
+                            <!-- Gradient divider -->
+                            <hr data-content="AND" class="hr-text">
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <a id="single_3" href="http://metropoliten.by/images/history_M/1.%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D1%81%D0%B2%D0%B0%D1%8F.jpg" title="#">
+                                            <img class="card-img" src="http://metropoliten.by/images/history_M/1.%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D1%81%D0%B2%D0%B0%D1%8F.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="nopad float-left col-lg-8">
+<p>Постановление о строительстве метрополитена в столице БССР городе Минске было принято Советом Министров СССР 4 февраля 1977 года. 3 мая 1977 года было начато строительство метро, а 4 ноября 1977 года со строительной площадки будущей станции «Парк Челюскинцев» начаты работы по проходке тоннелей. </p>                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <a id="single_1" href="http://metropoliten.by/images/history_M/2.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-2.jpg" title="#">
+                                            <img class="card-img" src="http://metropoliten.by/images/history_M/2.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-2.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="nopad float-left col-lg-8">
+                                    <p>Эксплуатация первого участка линии метро показала необходимость продления ветки и в 1986 году был введен в эксплуатацию участок от станции «Московская» до станции «Восток» протяженностью 1,71 километра.
+
+                                        С 1985 года было начато строительство первого участка второй линии метро от станции «Тракторный завод» до станции «Фрунзенская». Его протяженность составила 6,12 километра. В 1990 году в постоянную эксплуатацию введены первые шесть станций Автозаводской линии. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="falling" class="mb-4">
+                            <!-- Gradient divider -->
+                            <hr data-content="AND" class="hr-text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo-gallery">
+                <div class="container">
+                    <div class="row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="http://metropoliten.by/images/history_M/3.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-3.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/3.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-3.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="http://metropoliten.by/images/history_M/4.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-4.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/4.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-4.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="http://metropoliten.by/images/history_M/5.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-5.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/5.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-5.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="http://metropoliten.by/images/history_M/6.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-6.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/6.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-6.jpg"></a></div>
+                    </div>
+                    <div class="about">
+                        <p>В последующем были введены в строй:
+                            – в 1995 году – участок продления второй линии от станции «Фрунзенская» до станции «Пушкинская», протяженностью 2,92 километра с двумя станциями;
+                            – в 1997 году – участок продления второй линии от станции «Тракторный завод» до станции «Автозаводская», протяженностью 3,55 километра с двумя станциями;
+                            – в 2001 году – участок продления второй линии от станции «Автозаводская» до станции «Могилевская», протяженностью 1,79 километра;
+                            – в 2003 году – электродепо «Могилевское»;
+                            – в 2005 году – участок продления второй линии от станции «Пушкинская» до станции «Каменная Горка», протяженностью 3,93 километра с тремя станциями;
+                            – в 2007 году – участок продления первой линии от станции «Восток» до станции «Уручье», протяженностью 2,69 километра с двумя станциями;
+                            – в 2012 году участок продления первой линии метрополитена от станции «Институт Культуры» до станции «Петровщина», протяженностью 5,12 километра с тремя станциями;
+                            – 3 июня 2014 года – участок продления первой линии метрополитена от станции «Петровщина» до станции «Малиновка», протяженностью 1,85 километра. </p>
+                    </div>
+                    <div class="about row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/7.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-7.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/7.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-7.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/9.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-9.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/9.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-9.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/10.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-10.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/10.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-10.jpg"></a></div>
+                    </div>
+                    <div class="about">Отличительной особенностью строительства Минского метрополитена стала небольшая глубина заложения станций. Из-за высокого уровня подъема грунтовых вод станции пришлось размещать буквально под земной поверхностью, на глубине всего 10-17 метров</div>
+                    <div class="about row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/11.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-11.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/11.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-11.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/12.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-12.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/12.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-12.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/13.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-13.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/13.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-13.jpg"></a></div>
+                    </div>
+                    <div class="about">
+                       <p>Нередко строительство сопровождалось плывунами. Немало трудностей создавали и инженерные коммуникации. Чтобы не повредить архитектурный ансамбль Минска, в особенности в исторической части города, прокладку тоннелей и строительство станций пришлось вести с высокой степенью надежности и точности. </p>
+                        <p>Несмотря на серьезные трудности при строительстве, метро было принято в эксплуатацию с общей оценкой «отлично». Самую высокую оценку поставили Минскому метрополитену и пассажиры, которые в первые дни его эксплуатации написали сотни благодарностей в книгу отзывов и предложений. Спускаясь впервые в метро, люди ощущали себя в подземных дворцах. Каждая станция имела свой неповторимый архитектурный облик. </p>
+                  <p>С пуском метрополитена была решена назревшая транспортная проблема. Еще в бытность существования СССР в Минске располагалось порядка 150 крупных заводов, фабрик и трестов. Наземному общественному транспорту было крайне тяжело решать вопросы сообщения в столице. С момента пуска Минского метрополитена эта проблема успешно решена, а метро стало самым популярным видом общественного транспорта. Уже за первый год его услугами воспользовались более 80 миллионов человек.
+                  </p>
+                    </div>
+                    <div class="about row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/16.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-16.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/16.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-16.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/17.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-17.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/17.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-17.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/history_M/18.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-18.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/history_M/18.%20%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-18.jpg"></a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--            <div class="headline"></div>-->
+            <!--            <div class="text"></div>-->
+            <!--            <div class="text"></div>-->
+            <!--            <div class="button"></div>-->
+
+        </section>
+    </div>
+</div>
+
+<footer class="footer">
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="container-footer col-md-2 mb-3 btn btn-lg turned-button" data-toggle="modal" data-target="#myModal">
+                    <div class="items" style="height: 83px">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                        <div class="project-name">
+                            <p>КОНТАКТЫ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+
+        <!-- Grid row-->
+        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+            <!-- Grid column -->
+            <div class="col-md-8 col-12 mt-5 twitter-social">
+                <p>Мы также в соцсетях:</p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+
+        <!-- Grid row-->
+        <div class="row pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-12">
+
+                <div class="mb-5 flex-center">
+                    <!-- Twitter -->
+                    <ul class="social">
+                        <li><a href="https://twitter.com/minskoemetro" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+
+        <!-- Footer Links -->
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="map">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=53.894354%2C%2027.547379&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">google map on web site</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div>                    </div>
+                    <div class="contact-form">
+                        <div class="" id="contact1">
+                            <div class="card border-0">
+                                <a href="tel:219-50-09">
+                                    <div class="card-body text-center">
+                                        <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                                        <h4 class="mb-5">+8017 219-50-09</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="" id="contact">
+                            <div class="card border-0">
+                                <a href="mailto:minskmetro@gmail.com">
+                                    <div class="card-body text-center">
+                                        <i class="fa fa-envelope fa-5x mb-3" aria-hidden="true"></i>
+                                        <h4 class="mb-5">minskmetro@gmail.com</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 copyright">© 2020 Copyright:
+            <a href="#">Минский метрополитен</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Copyright -->
+    <div
+            class="col-lg-4 logo text-center"></div>
+</footer>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src = "img/minsklogo.png" alt = "" width="75" height="75">&nbsp;
+            Минский
+            метрополитен</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="img/NS-metro-map-4-11-W-PNG.png" data-fancybox>Схема метро
+                        <span class="sr-only">Схема метро</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pays.html">Оплата проезда</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">Работа и карьера</a>
+                </li>
+                <li>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                        <label class="custom-control-label" for="darkSwitch">🌓</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/dark-mode-switch.js"></script>
+<script src="js/leftsidebutton.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin = "anonymous"></script>
+<script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin = "anonymous"></script>
+
+</body>
+</html>

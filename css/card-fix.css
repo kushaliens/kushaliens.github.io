@@ -1,0 +1,9 @@
+.card img{
+    height:250px;
+    width:100%;
+}
+
+.d-block img{
+    height:180px;
+    width:auto;
+}

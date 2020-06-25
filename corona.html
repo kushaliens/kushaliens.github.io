@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Metro</title>
+    <!-- Required meta tags -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet" href = "less/style.less">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "js/main.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <link rel = "stylesheet" href = "css/dark-mode.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/card-fix.css">
+    <link rel="shortcut icon" href="img/minsklogo.ico" type="image/x-icon">
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/dropdowns.js"></script>
+    <script src="js/links.js"></script>
+    <script src="js/side-menu.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#single_1").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_5").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_6").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_7").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+
+            $("#single_2").fancybox({
+                openEffect	: 'elastic',
+                closeEffect	: 'elastic',
+
+                helpers : {
+                    title : {
+                        type : 'inside'
+                    }
+                }
+            });
+
+            $("#single_3").fancybox({
+                openEffect : 'none',
+                closeEffect	: 'none',
+                helpers : {
+                    title : {
+                        type : 'outside'
+                    }
+                }
+            });
+
+            $("#single_4").fancybox({
+                helpers : {
+                    title : {
+                        type : 'over'
+                    }
+                }
+            });
+        });
+
+    </script>
+
+
+</head>
+<body>
+
+<aside>
+    <div class="menu-wrapper d-none d-md-block">
+        <div class="menu-link" data-modal="menu-modal">
+            <span class="menu-icon"></span>
+        </div>
+        <div class="modal-mask">
+            <div class="menu-modal">
+                <div class="nav-wrapper">
+                    <div class="main-nav">
+                        <div class="utility-links">
+                            <a href=""></a>
+                            <span class="language-downdown">
+                <a class="language-dropdown-toggle" data-target="language-dropdown"></a>
+                <ul class="language-dropdown-list">
+                  <li><a class="language-item" href="#">Deutsch</a></li>
+                  <li><a class="language-item selected" href="#">English</a></li>
+                  <li><a class="language-item" href="#">Español</a></li>
+                  <li><a class="language-item" href="#">Français</a></li>
+                  <li><a class="language-item" href="#">Italiano</a></li>
+                  <li><a class="language-item" href="#">Nederlands</a></li>
+                  <li><a class="language-item" href="#">Português</a></li>
+                </ul>
+              </span>
+                        </div>
+                        <nav>
+                            <div class="well" style="width:600px; padding: 8px 0;">
+                                <div style="overflow-y: auto; overflow-x: hidden; height: 800px;">
+                                    <ul class="nav-list">
+                                        <li><label class="tree-toggler nav-header">Услуги</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="ads.html">Рекламные услуги</a></li>
+                                                <li><a href="logistics.html">Автотранспортные услуги</a></li>
+                                                <li><a href="rent.html">Услуги аренды помещений</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Информация</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="security.html">Безопасность</a></li>
+                                                <li><a href="pays.html">Оплата проезда</a></li>
+                                                <li><a href="rules.html">Правила перевозок</a></li>
+                                                <li><a href="zones.html">Зона досмотра</a></li>
+                                                <li><a href="schedule.html">График работы</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Обращения граждан</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="administrative-contact.html">По административным вопросам</a></li>
+                                                <li><a href="user-contact.html">По личным вопросам</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">О метрополитене</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="director.html">О руководителе</a></li>
+                                                <li><a href="history.html">История развития</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+<article>
+    <div class="menu-wrapper d-sm-none">
+        <div class="menu-link" data-modal="menu-modal">
+            <span class="menu-icon"></span>
+        </div>
+        <div class="modal-mask">
+            <div class="menu-modal">
+                <div class="nav-wrapper">
+                    <div class="main-nav">
+                        <div class="utility-links">
+                            <a href=""></a>
+                            <span class="language-downdown">
+                <a class="language-dropdown-toggle" data-target="language-dropdown"></a>
+                <ul class="language-dropdown-list">
+                  <li><a class="language-item" href="#">Deutsch</a></li>
+                  <li><a class="language-item selected" href="#">English</a></li>
+                  <li><a class="language-item" href="#">Español</a></li>
+                  <li><a class="language-item" href="#">Français</a></li>
+                  <li><a class="language-item" href="#">Italiano</a></li>
+                  <li><a class="language-item" href="#">Nederlands</a></li>
+                  <li><a class="language-item" href="#">Português</a></li>
+                </ul>
+              </span>
+                        </div>
+                        <nav>
+                            <div class="well" style="width:600px; padding: 8px 0;">
+                                <div style="overflow-y: auto; overflow-x: hidden; height: 800px; margin: -100px 20px 20px -50px">
+                                    <ul class="nav-list">
+                                        <li><label class="tree-toggler nav-header">Услуги</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="ads.html">Рекламные услуги</a></li>
+                                                <li><a href="logistics.html">Автотранспортные услуги</a></li>
+                                                <li><a href="rent.html">Услуги аренды помещений</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Информация</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="security.html">Безопасность</a></li>
+                                                <li><a href="pays.html">Оплата проезда</a></li>
+                                                <li><a href="rules.html">Правила перевозок</a></li>
+                                                <li><a href="zones.html">Зона досмотра</a></li>
+                                                <li><a href="schedule.html">График работы</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">Обращения граждан</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="administrative-contact.html">По административным вопросам</a></li>
+                                                <li><a href="user-contact.html">По личным вопросам</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><label class="tree-toggler nav-header">О метрополитене</label>
+                                            <ul class="nav-list tree">
+                                                <li><a href="director.html">О руководителе</a></li>
+                                                <li><a href="history.html">История развития</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<div class="wrapper">
+    <div class="wrap">
+        <section class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <div
+                                class="text-center"><h2 class="display-4">Новости
+                        </h2></div>
+
+
+                        <div class="about">
+                            <p>
+                                С целью предотвращения распространения случаев инфекции, вызванной коронавирусом, в Минском метрополитене осуществляется соответствующий комплекс мероприятий. </p>
+                            <p>Разработан и согласован с заместителем главного государственного санитарного врача Минска «Регламент проведения уборочных операций с мероприятиями по дезинфекции для предотвращения распространения острых инфекционных респираторных заболеваний на станциях и в подвижном составе Минского метрополитена».
+                            </p>
+                            <p>Санитарная уборка и дезинфекция вагонов метро проводятся регулярно при каждом заходе электропоездов в депо на техническое обслуживание или кратковременный отстой. Работы выполняются в соответствии с технологическими процессами, разработанными на каждый вид технического обслуживания. </p>
+                        </div>
+                        <div class="mb-4">
+                            <!-- Gradient divider -->
+                            <hr data-content="AND" class="hr-text">
+                        </div>
+
+            <div class="photo-gallery">
+                <div class="container">
+                    <div class="row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/11_IMG_2390.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/11_IMG_2390.JPG"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/12_IMG_2454.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/12_IMG_2454.JPG"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/13_IMG_2476.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/13_IMG_2476.JPG"></a></div>
+                    </div>
+                    <div class="mb-4">
+                        <!-- Gradient divider -->
+                        <hr data-content="AND" class="hr-text">
+                    </div>
+                    <div class="about">
+                        <p>На станциях метрополитена моющими и дезинфицирующими средствами обрабатываются: дверные ручки, кассовые зоны (окна, подоконники, тарелки для денег, стекла и так далее), поверхности турникетов, поручни и балюстрады эскалаторов, скамейки, поручни маршевых лестниц, кабины лифтов. То есть, все те места, которых касается, или может коснуться, пассажир.   </p>
+                    </div>
+                    <div class="mb-4">
+                        <!-- Gradient divider -->
+                        <hr data-content="AND" class="hr-text">
+                    </div>
+                    <div class="row photos">
+
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/15_IMG_2067.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/15_IMG_2067.JPG"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/12_IMG_2454.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/20_MG_2649.JPG"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/17_IMG_2597.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/17_IMG_2597.JPG"></a></div>
+                    </div>
+                    <div class="mb-4">
+                        <!-- Gradient divider -->
+                        <hr data-content="AND" class="hr-text">
+                    </div>
+                    <div class="about">
+                        <p>У билетных касс на полу красно-белыми линиями обозначены места, где рекомендовано находиться пассажирам в момент, когда другой пассажир приобретает проездные документы у кассиров.
+                        </p>
+                        <p>В целях контроля за проведением уборочных и дезинфекционных мероприятий, разработаны графики внезапных проверок должностными лицами метрополитена. </p>
+                        <p>В достаточном объеме закуплены дозаторы и дезинфицирующие средства для обработки рук пассажиров и работников метрополитена. На вестибюлях всех станций установлены бесконтактные сенсорные дозаторы. </p>
+                    </div>
+                    <div class="mb-4">
+                        <!-- Gradient divider -->
+                        <hr data-content="AND" class="hr-text">
+                    </div>
+                    <div class="row photos">
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/19_.jpg" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/19_.jpg"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/16_IMG_2020.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/16_IMG_2020.JPG"></a></div>
+                        <div class="col-sm-6 col-md-4 col-lg-4 item"><a href="http://metropoliten.by/images/news/000_2020/0404/18_IMG_2633.JPG" data-lightbox="photos"><img class="img-fluid" src="http://metropoliten.by/images/news/000_2020/0404/18_IMG_2633.JPG"></a></div>
+                    </div>
+                    <div class="mb-4">
+                        <!-- Gradient divider -->
+                        <hr data-content="AND" class="hr-text">
+                    </div>
+
+                </div>
+            </div>
+
+            <!--            <div class="headline"></div>-->
+            <!--            <div class="text"></div>-->
+            <!--            <div class="text"></div>-->
+            <!--            <div class="button"></div>-->
+
+        </section>
+    </div>
+</div>
+
+<footer class="footer">
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="container-footer col-md-2 mb-3 btn btn-lg turned-button" data-toggle="modal" data-target="#myModal">
+                    <div class="items" style="height: 83px">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-address-book"></i>
+                        </div>
+                        <div class="project-name">
+                            <p>КОНТАКТЫ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+
+        <!-- Grid row-->
+        <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+            <!-- Grid column -->
+            <div class="col-md-8 col-12 mt-5 twitter-social">
+                <p>Мы также в соцсетях:</p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+
+        <!-- Grid row-->
+        <div class="row pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-12">
+
+                <div class="mb-5 flex-center">
+                    <!-- Twitter -->
+                    <ul class="social">
+                        <li><a href="https://twitter.com/minskoemetro" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+
+        <!-- Footer Links -->
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="map">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=53.894354%2C%2027.547379&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">google map on web site</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div>                    </div>
+                    <div class="contact-form">
+                        <div class="" id="contact1">
+                            <div class="card border-0">
+                                <a href="tel:219-50-09">
+                                    <div class="card-body text-center">
+                                        <i class="fa fa-phone fa-5x mb-3" aria-hidden="true"></i>
+                                        <h4 class="mb-5">+8017 219-50-09</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="" id="contact">
+                            <div class="card border-0">
+                                <a href="mailto:minskmetro@gmail.com">
+                                    <div class="card-body text-center">
+                                        <i class="fa fa-envelope fa-5x mb-3" aria-hidden="true"></i>
+                                        <h4 class="mb-5">minskmetro@gmail.com</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 copyright">© 2020 Copyright:
+            <a href="index.html">Минский метрополитен</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Copyright -->
+    <div
+            class="col-lg-4 logo text-center"></div>
+</footer>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src = "img/minsklogo.png" alt = "" width="75" height="75">&nbsp;
+            Минский
+            метрополитен</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="img/NS-metro-map-4-11-W-PNG.png" data-fancybox>Схема метро
+                        <span class="sr-only">Схема метро</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pays.html">Оплата проезда</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">Работа и карьера</a>
+                </li>
+                <li>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+                        <label class="custom-control-label" for="darkSwitch">🌓</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Optional JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/dark-mode-switch.js"></script>
+<script src="js/leftsidebutton.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin = "anonymous"></script>
+<script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin = "anonymous"></script>
+
+</body>
+</html>
